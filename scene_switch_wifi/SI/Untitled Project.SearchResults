@@ -1,0 +1,5 @@
+---- XRBoffbrightvalue Matches (4 in 2 files) ----
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\testmesh\user):	 u8 xdata XRBoffbrightvalue = 0;
+HC-MCU-XBR.c (e:\wuxzn\leida\project\projectwitchble\testmesh\user):				PWM3init(XRBoffbrightvalue);
+Protocol.c (e:\wuxzn\leida\project\projectwitchble\testmesh\user):extern u8 xdata XRBoffbrightvalue ;
+Protocol.c (e:\wuxzn\leida\project\projectwitchble\testmesh\user):			XRBoffbrightvalue = bright_value;

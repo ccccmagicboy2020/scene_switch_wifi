@@ -1,0 +1,19 @@
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling HC-MCU-XBR.c...
+compiling mcu_api.c...
+compiling protocol.c...
+compiling system.c...
+linking...
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?CURRENT_MCU_FW_PID?SYSTEM
+    LENGTH:  0003H
+
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: ?DT?ZIGBEE_TEST_RESULT?PROTOCOL
+    LENGTH:  0001H
+
+Program Size: data=137.0 xdata=295 code=10655
+Target not created
